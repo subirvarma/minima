@@ -11,13 +11,9 @@
 
   {%- include custom-head.html -%}
   
-  <!-- for mathjax support -->
     {% if page.usemathjax %}
-      <script type="text/x-mathjax-config">
-        MathJax.Hub.Config({
-        TeX: { equationNumbers: { autoNumber: "AMS" } }
-        });
-      <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
-  </script>
-    {% endif %}
+    <script type="text/javascript" async
+    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+    </script>
+    {% end if %}
 </head>
