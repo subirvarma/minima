@@ -55,7 +55,6 @@ minima:
 
 # Build settings
 theme: minima
-usemathjax: true
 markdown: kramdown
 
 plugins:
